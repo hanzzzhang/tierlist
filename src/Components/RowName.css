@@ -1,0 +1,21 @@
+.RowNameBox {
+    border:solid white;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px;
+    position: relative;
+    right: 25%;
+}
+
+.RowNameInput {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: x-large;
+    width: 100px;
+    height: 100px;
+}
+
+.RowNameInput:focus {
+    outline: none;
+}

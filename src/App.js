@@ -1,10 +1,14 @@
 import './App.css';
 import Table from './Table.js';
+import RowName from './Components/RowName';
 
 function App() {
   return (
     <div className="background">
-        <Table />
+        <RowName></RowName>
+        <RowName></RowName>
+        <RowName></RowName>
+        <RowName></RowName>
     </div>
   );
 }
